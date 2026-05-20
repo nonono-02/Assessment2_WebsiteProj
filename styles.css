@@ -9,3 +9,36 @@
     font-style: normal;
 }
 
+html, body {
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.parallax {
+    background-image: url(images/startingpage.png);
+    min-height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* for mobile, tablet, and smaller screens only */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.start-screen {
+    text-align: center;
+    background-color: black;
+    opacity: 20%;
+}
+
+p .start-screen {
+    opacity: 100%;
+    color: black;
+}
