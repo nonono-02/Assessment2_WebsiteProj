@@ -82,6 +82,11 @@ img {
     gap: 36px;
 }
 
+
+.nav-links-active {
+    color: var(--accent);
+}
+
 .nav-links a {
     font-family: var(--font-body);
     font-size: 0.8rem;
