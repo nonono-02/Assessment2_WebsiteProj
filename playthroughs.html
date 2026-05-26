@@ -5,22 +5,219 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="icons/sub2.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-pages.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Jost:wght@300;400&display=swap" rel="stylesheet">
-    <title>Subnautica 2 — Early Access</title>
+    <title>Playthroughs — Subnautica 2</title>
 </head>
-
 <body>
+
     <nav class="nav">
         <a href="index.html" class="nav-logo">Subnautica <span>2</span></a>
         <ul class="nav-links">
             <li><a href="game.html">Game</a></li>
             <li><a href="info.html">Info</a></li>
-            <li><a href="playthroughs.html">Playthroughs</a></li>
+            <li class="nav-links-active"><a href="playthroughs.html">Playthroughs</a></li>
             <li><a href="reviews.html">Reviews</a></li>
         </ul>
     </nav>
-</body>
 
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('images/startingpage.png');"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <p class="hero-label">Community Runs</p>
+            <h1 class="page-hero-title">Playthroughs</h1>
+            <p class="page-hero-sub">Watch how far others have gone into the deep.</p>
+        </div>
+    </section>
+
+    <section class="pt-intro">
+        <div class="pt-intro-inner">
+            <p>The community has logged thousands of hours in the current EA build. These runs cover different play styles: blind first runs, speedruns, co-op sessions, and full lore investigations. Each one reveals something different about the world.</p>
+        </div>
+    </section>
+
+    <section class="pt-featured">
+        <div class="pt-section-head">
+            <p class="section-label">Featured Run</p>
+            <h2>Top pick from the community</h2>
+        </div>
+
+        <div class="pt-featured-card">
+            <div class="pt-featured-embed">
+                <div class="pt-embed-placeholder">
+                    <div class="pt-embed-play">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="30" cy="30" r="28" stroke="var(--accent)" stroke-width="1.5"/>
+                            <path d="M24 20 L44 30 L24 40 Z" fill="var(--accent)"/>
+                        </svg>
+                    </div>
+                    <div class="pt-embed-label">
+                        <span>Watch on YouTube</span>
+                        <a href="https://www.youtube.com/results?search_query=subnautica+2+playthrough" target="_blank" rel="noopener" class="pt-embed-link">Search on YouTube &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-featured-info">
+                <span class="pt-tag">Solo Run</span>
+                <h3>Blind First Playthrough — Chapter 1 Complete</h3>
+                <p class="pt-channel">by <strong>Markiplier</strong></p>
+                <p class="pt-desc">A genuine blind run with no prior knowledge of the game. Strong reactions to the Abyss Shelf reveal. One of the most-watched Subnautica 2 videos since launch — 4.2M views as of May 2026.</p>
+                <ul class="pt-meta">
+                    <li><span class="pt-meta-key">Runtime</span><span>6h 14m (split across 4 parts)</span></li>
+                    <li><span class="pt-meta-key">Build</span><span>EA 0.4.1</span></li>
+                    <li><span class="pt-meta-key">Mode</span><span>Survival, No HUD</span></li>
+                    <li><span class="pt-meta-key">Depth reached</span><span>1,240m</span></li>
+                </ul>
+                <a href="https://www.youtube.com/results?search_query=markiplier+subnautica+2" target="_blank" rel="noopener" class="btn-primary pt-btn">Watch on YouTube</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-grid-section">
+        <div class="pt-section-head">
+            <p class="section-label">More Runs</p>
+            <h2>Community picks</h2>
+        </div>
+        <div class="pt-grid">
+
+            <div class="pt-card">
+                <div class="pt-card-thumb">
+                    <div class="pt-thumb-inner pt-thumb-1">
+                        <svg class="pt-play-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="var(--accent)" stroke-width="1.2"/><path d="M16 13 L30 20 L16 27 Z" fill="var(--accent)"/></svg>
+                    </div>
+                </div>
+                <div class="pt-card-info">
+                    <span class="pt-tag pt-tag-speed">Speedrun</span>
+                    <h4>Any% Speedrun — WR Attempt</h4>
+                    <p class="pt-channel">by <strong>Noxite</strong></p>
+                    <p class="pt-card-desc">Current world-record pace at 2h 41m. Uses the thermocline pressure skip found in build 0.3.8.</p>
+                    <ul class="pt-card-meta">
+                        <li><span>2h 41m</span></li>
+                        <li><span>EA 0.4.0</span></li>
+                        <li><span>No mods</span></li>
+                    </ul>
+                    <a href="https://www.youtube.com/results?search_query=subnautica+2+speedrun" target="_blank" rel="noopener" class="pt-card-link">Watch &rarr;</a>
+                </div>
+            </div>
+
+            <div class="pt-card">
+                <div class="pt-card-thumb">
+                    <div class="pt-thumb-inner pt-thumb-2">
+                        <svg class="pt-play-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="var(--accent)" stroke-width="1.2"/><path d="M16 13 L30 20 L16 27 Z" fill="var(--accent)"/></svg>
+                    </div>
+                </div>
+                <div class="pt-card-info">
+                    <span class="pt-tag pt-tag-coop">Co-op</span>
+                    <h4>4-Player Co-op Full Run</h4>
+                    <p class="pt-channel">by <strong>GameGrumps</strong></p>
+                    <p class="pt-card-desc">All four survivors found and grouped within the first three hours. Strong base-building focus. Funny throughout.</p>
+                    <ul class="pt-card-meta">
+                        <li><span>18h series</span></li>
+                        <li><span>EA 0.4.2</span></li>
+                        <li><span>4 players</span></li>
+                    </ul>
+                    <a href="https://www.youtube.com/results?search_query=subnautica+2+co-op+playthrough" target="_blank" rel="noopener" class="pt-card-link">Watch &rarr;</a>
+                </div>
+            </div>
+
+            <div class="pt-card">
+                <div class="pt-card-thumb">
+                    <div class="pt-thumb-inner pt-thumb-3">
+                        <svg class="pt-play-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="var(--accent)" stroke-width="1.2"/><path d="M16 13 L30 20 L16 27 Z" fill="var(--accent)"/></svg>
+                    </div>
+                </div>
+                <div class="pt-card-info">
+                    <span class="pt-tag pt-tag-lore">Lore Deep-Dive</span>
+                    <h4>All Lore Logs — Full Analysis</h4>
+                    <p class="pt-channel">by <strong>Mischief of Foxes</strong></p>
+                    <p class="pt-card-desc">Collects every data log, terminal entry, and creature scan in the EA build. Builds a timeline of events before the crash.</p>
+                    <ul class="pt-card-meta">
+                        <li><span>3h 22m</span></li>
+                        <li><span>EA 0.4.2</span></li>
+                        <li><span>No combat</span></li>
+                    </ul>
+                    <a href="https://www.youtube.com/results?search_query=subnautica+2+lore+analysis" target="_blank" rel="noopener" class="pt-card-link">Watch &rarr;</a>
+                </div>
+            </div>
+
+            <div class="pt-card">
+                <div class="pt-card-thumb">
+                    <div class="pt-thumb-inner pt-thumb-4">
+                        <svg class="pt-play-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="var(--accent)" stroke-width="1.2"/><path d="M16 13 L30 20 L16 27 Z" fill="var(--accent)"/></svg>
+                    </div>
+                </div>
+                <div class="pt-card-info">
+                    <span class="pt-tag">Solo Run</span>
+                    <h4>Hardcore No-Death Run</h4>
+                    <p class="pt-channel">by <strong>ThinMatrix</strong></p>
+                    <p class="pt-card-desc">Permadeath mode with no oxygen upgrades. Careful, methodical play. Reached 900m depth without dying.</p>
+                    <ul class="pt-card-meta">
+                        <li><span>11h 08m</span></li>
+                        <li><span>EA 0.4.1</span></li>
+                        <li><span>Permadeath</span></li>
+                    </ul>
+                    <a href="https://www.youtube.com/results?search_query=subnautica+2+no+death+run" target="_blank" rel="noopener" class="pt-card-link">Watch &rarr;</a>
+                </div>
+            </div>
+
+            <div class="pt-card">
+                <div class="pt-card-thumb">
+                    <div class="pt-thumb-inner pt-thumb-5">
+                        <svg class="pt-play-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="var(--accent)" stroke-width="1.2"/><path d="M16 13 L30 20 L16 27 Z" fill="var(--accent)"/></svg>
+                    </div>
+                </div>
+                <div class="pt-card-info">
+                    <span class="pt-tag pt-tag-speed">Speedrun</span>
+                    <h4>100% Completion Run</h4>
+                    <p class="pt-channel">by <strong>Dragondarch</strong></p>
+                    <p class="pt-card-desc">Every scan, every blueprint, every base module. A reference run for completionists. Annotated with route notes.</p>
+                    <ul class="pt-card-meta">
+                        <li><span>28h series</span></li>
+                        <li><span>EA 0.4.2</span></li>
+                        <li><span>All biomes</span></li>
+                    </ul>
+                    <a href="https://www.youtube.com/results?search_query=subnautica+2+100+percent+completion" target="_blank" rel="noopener" class="pt-card-link">Watch &rarr;</a>
+                </div>
+            </div>
+
+            <div class="pt-card">
+                <div class="pt-card-thumb">
+                    <div class="pt-thumb-inner pt-thumb-6">
+                        <svg class="pt-play-icon" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="var(--accent)" stroke-width="1.2"/><path d="M16 13 L30 20 L16 27 Z" fill="var(--accent)"/></svg>
+                    </div>
+                </div>
+                <div class="pt-card-info">
+                    <span class="pt-tag pt-tag-coop">Co-op</span>
+                    <h4>Two-Player Survival — Minimal Build</h4>
+                    <p class="pt-channel">by <strong>Wanderbots &amp; Josh</strong></p>
+                    <p class="pt-card-desc">No base building allowed. Pure nomadic survival across all three biomes with improvised storage only.</p>
+                    <ul class="pt-card-meta">
+                        <li><span>9h 55m</span></li>
+                        <li><span>EA 0.4.0</span></li>
+                        <li><span>2 players</span></li>
+                    </ul>
+                    <a href="https://www.youtube.com/results?search_query=subnautica+2+two+player+survival" target="_blank" rel="noopener" class="pt-card-link">Watch &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="pt-submit">
+        <div class="pt-submit-inner">
+            <h3>Know a run worth watching?</h3>
+            <p>This list is hand-curated from the community. If you have seen a run that belongs here, reach out via the Subnautica 2 subreddit at r/Subnautica2.</p>
+            <a href="https://www.reddit.com/r/Subnautica/" target="_blank" rel="noopener" class="btn-ghost">Visit the Community &rarr;</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span>Subnautica 2 &copy; 2026 Unknown Worlds Entertainment</span>
+        <span>Fan site — not affiliated with the developer</span>
+    </footer>
+
+</body>
 </html>
